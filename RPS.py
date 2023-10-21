@@ -25,14 +25,16 @@ Start Game...
                 print("\t\tYou Chose: Paper")
             else:
                 print("\t\tEnter Valid Number")
-            if Computer == 0:
-                print("\t\tComputer Chose: Rock")
-            elif Computer == 1:
-                print("\t\tComputer Chose: Scissor")
-            elif Computer == 2:
-                print("\t\tComputer Chose: Paper")
+                break
+            if user == 1 or 2 or 3:
+                if Computer == 0:
+                    print("\t\tComputer Chose: Rock")
+                elif Computer == 1:
+                    print("\t\tComputer Chose: Scissor")
+                elif Computer == 2:
+                    print("\t\tComputer Chose: Paper")
             else:
-                print("\t\tEnter Valid Number")
+                break
             if Computer == user:
                 print("\t\tIT'S A TIE")            
             elif user == 0 and Computer == 1:
